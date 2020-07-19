@@ -3,9 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Orgerben.Construction", "R5T.Orgerben.Construction\R5T.Orgerben.Construction.csproj", "{4B5678D6-3C80-4A4E-BEE2-BD90B3D5FB37}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Orgerben.Construction", "R5T.Orgerben.Construction\R5T.Orgerben.Construction.csproj", "{4B5678D6-3C80-4A4E-BEE2-BD90B3D5FB37}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Orgerben", "R5T.Orgerben\R5T.Orgerben.csproj", "{3A8D8CD9-8EC7-4450-9966-1EF5A6FD9805}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Orgerben", "R5T.Orgerben\R5T.Orgerben.csproj", "{3A8D8CD9-8EC7-4450-9966-1EF5A6FD9805}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{C6FB0504-6FB5-4554-ABDD-7834ED31374F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "R5T.Guide", "..\..\R5T.Guide\source\R5T.Guide\R5T.Guide.csproj", "{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{4B5678D6-3C80-4A4E-BEE2-BD90B3D5FB37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -44,5 +45,26 @@ Global
 		{3A8D8CD9-8EC7-4450-9966-1EF5A6FD9805}.Release|x64.Build.0 = Release|Any CPU
 		{3A8D8CD9-8EC7-4450-9966-1EF5A6FD9805}.Release|x86.ActiveCfg = Release|Any CPU
 		{3A8D8CD9-8EC7-4450-9966-1EF5A6FD9805}.Release|x86.Build.0 = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|x64.Build.0 = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Debug|x86.Build.0 = Debug|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|x64.ActiveCfg = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|x64.Build.0 = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|x86.ActiveCfg = Release|Any CPU
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C8C9DEA7-21A4-43B5-84B0-5871A2A4657B} = {C6FB0504-6FB5-4554-ABDD-7834ED31374F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D9296B36-2C17-4589-A844-3174822154B5}
 	EndGlobalSection
 EndGlobal
